@@ -1,0 +1,15 @@
+C:\Projetos .NET\LibrarySystem\Application\bin\Debug\net9.0\Application.deps.json
+C:\Projetos .NET\LibrarySystem\Application\bin\Debug\net9.0\Application.dll
+C:\Projetos .NET\LibrarySystem\Application\bin\Debug\net9.0\Application.pdb
+C:\Projetos .NET\LibrarySystem\Application\bin\Debug\net9.0\Domain.dll
+C:\Projetos .NET\LibrarySystem\Application\bin\Debug\net9.0\Domain.pdb
+C:\Projetos .NET\LibrarySystem\Application\obj\Debug\net9.0\Application.csproj.AssemblyReference.cache
+C:\Projetos .NET\LibrarySystem\Application\obj\Debug\net9.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos .NET\LibrarySystem\Application\obj\Debug\net9.0\Application.AssemblyInfoInputs.cache
+C:\Projetos .NET\LibrarySystem\Application\obj\Debug\net9.0\Application.AssemblyInfo.cs
+C:\Projetos .NET\LibrarySystem\Application\obj\Debug\net9.0\Application.csproj.CoreCompileInputs.cache
+C:\Projetos .NET\LibrarySystem\Application\obj\Debug\net9.0\Applicat.44B5EDA2.Up2Date
+C:\Projetos .NET\LibrarySystem\Application\obj\Debug\net9.0\Application.dll
+C:\Projetos .NET\LibrarySystem\Application\obj\Debug\net9.0\refint\Application.dll
+C:\Projetos .NET\LibrarySystem\Application\obj\Debug\net9.0\Application.pdb
+C:\Projetos .NET\LibrarySystem\Application\obj\Debug\net9.0\ref\Application.dll
