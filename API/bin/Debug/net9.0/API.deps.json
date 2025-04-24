@@ -660,6 +660,7 @@
       },
       "Application/1.0.0": {
         "dependencies": {
+          "AutoMapper": "14.0.0",
           "BCrypt.Net-Next": "4.0.3",
           "Domain": "1.0.0"
         },
@@ -681,6 +682,7 @@
       "Infrastructure/1.0.0": {
         "dependencies": {
           "Application": "1.0.0",
+          "AutoMapper": "14.0.0",
           "Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.4"

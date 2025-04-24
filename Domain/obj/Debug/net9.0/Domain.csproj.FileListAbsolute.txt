@@ -9,3 +9,4 @@ C:\Projetos .NET\LibrarySystem\Domain\obj\Debug\net9.0\Domain.dll
 C:\Projetos .NET\LibrarySystem\Domain\obj\Debug\net9.0\refint\Domain.dll
 C:\Projetos .NET\LibrarySystem\Domain\obj\Debug\net9.0\Domain.pdb
 C:\Projetos .NET\LibrarySystem\Domain\obj\Debug\net9.0\ref\Domain.dll
+C:\Projetos .NET\LibrarySystem\Domain\obj\Debug\net9.0\Domain.sourcelink.json

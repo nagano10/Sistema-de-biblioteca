@@ -3,32 +3,76 @@
   "WorkspaceRootPath": "C:\\Projetos .NET\\LibrarySystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8980B284-C66C-4BF0-97C8-A7F7FF21BCC2}|API\\API.csproj|c:\\projetos .net\\librarysystem\\api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8980B284-C66C-4BF0-97C8-A7F7FF21BCC2}|API\\API.csproj|solutionrelative:api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8980B284-C66C-4BF0-97C8-A7F7FF21BCC2}|API\\API.csproj|c:\\projetos .net\\librarysystem\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8980B284-C66C-4BF0-97C8-A7F7FF21BCC2}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8980B284-C66C-4BF0-97C8-A7F7FF21BCC2}|API\\API.csproj|c:\\projetos .net\\librarysystem\\api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8980B284-C66C-4BF0-97C8-A7F7FF21BCC2}|API\\API.csproj|solutionrelative:api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE5E4312-67F1-4309-8629-07CC6A4B8EB6}|Infrastructure\\Infrastructure.csproj|c:\\projetos .net\\librarysystem\\infrastructure\\data\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE5E4312-67F1-4309-8629-07CC6A4B8EB6}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE5E4312-67F1-4309-8629-07CC6A4B8EB6}|Infrastructure\\Infrastructure.csproj|c:\\projetos .net\\librarysystem\\infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE5E4312-67F1-4309-8629-07CC6A4B8EB6}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE5E4312-67F1-4309-8629-07CC6A4B8EB6}|Infrastructure\\Infrastructure.csproj|c:\\projetos .net\\librarysystem\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE5E4312-67F1-4309-8629-07CC6A4B8EB6}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DE5E4312-67F1-4309-8629-07CC6A4B8EB6}|Infrastructure\\Infrastructure.csproj|c:\\projetos .net\\librarysystem\\infrastructure\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE5E4312-67F1-4309-8629-07CC6A4B8EB6}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE5E4312-67F1-4309-8629-07CC6A4B8EB6}|Infrastructure\\Infrastructure.csproj|c:\\projetos .net\\librarysystem\\infrastructure\\data\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE5E4312-67F1-4309-8629-07CC6A4B8EB6}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D16C8269-CD8A-490C-82F4-C748FFDC2D7E}|Domain\\Domain.csproj|c:\\projetos .net\\librarysystem\\domain\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D16C8269-CD8A-490C-82F4-C748FFDC2D7E}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F00C9D72-CE82-4EB8-A862-1D5E8D39F059}|Application\\Application.csproj|c:\\projetos .net\\librarysystem\\application\\mappings\\automamapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F00C9D72-CE82-4EB8-A862-1D5E8D39F059}|Application\\Application.csproj|solutionrelative:application\\mappings\\automamapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F00C9D72-CE82-4EB8-A862-1D5E8D39F059}|Application\\Application.csproj|c:\\projetos .net\\librarysystem\\application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F00C9D72-CE82-4EB8-A862-1D5E8D39F059}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F00C9D72-CE82-4EB8-A862-1D5E8D39F059}|Application\\Application.csproj|c:\\projetos .net\\librarysystem\\application\\interfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F00C9D72-CE82-4EB8-A862-1D5E8D39F059}|Application\\Application.csproj|solutionrelative:application\\interfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F00C9D72-CE82-4EB8-A862-1D5E8D39F059}|Application\\Application.csproj|c:\\projetos .net\\librarysystem\\application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F00C9D72-CE82-4EB8-A862-1D5E8D39F059}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8980B284-C66C-4BF0-97C8-A7F7FF21BCC2}|API\\API.csproj|c:\\projetos .net\\librarysystem\\api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8980B284-C66C-4BF0-97C8-A7F7FF21BCC2}|API\\API.csproj|solutionrelative:api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8980B284-C66C-4BF0-97C8-A7F7FF21BCC2}|API\\API.csproj|c:\\projetos .net\\librarysystem\\api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8980B284-C66C-4BF0-97C8-A7F7FF21BCC2}|API\\API.csproj|solutionrelative:api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE5E4312-67F1-4309-8629-07CC6A4B8EB6}|Infrastructure\\Infrastructure.csproj|c:\\projetos .net\\librarysystem\\infrastructure\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE5E4312-67F1-4309-8629-07CC6A4B8EB6}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D16C8269-CD8A-490C-82F4-C748FFDC2D7E}|Domain\\Domain.csproj|c:\\projetos .net\\librarysystem\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D16C8269-CD8A-490C-82F4-C748FFDC2D7E}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8980B284-C66C-4BF0-97C8-A7F7FF21BCC2}|API\\API.csproj|c:\\projetos .net\\librarysystem\\api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8980B284-C66C-4BF0-97C8-A7F7FF21BCC2}|API\\API.csproj|solutionrelative:api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8980B284-C66C-4BF0-97C8-A7F7FF21BCC2}|API\\API.csproj|c:\\projetos .net\\librarysystem\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8980B284-C66C-4BF0-97C8-A7F7FF21BCC2}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8980B284-C66C-4BF0-97C8-A7F7FF21BCC2}|API\\API.csproj|c:\\projetos .net\\librarysystem\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8980B284-C66C-4BF0-97C8-A7F7FF21BCC2}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F00C9D72-CE82-4EB8-A862-1D5E8D39F059}|Application\\Application.csproj|c:\\projetos .net\\librarysystem\\application\\dtos\\createbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F00C9D72-CE82-4EB8-A862-1D5E8D39F059}|Application\\Application.csproj|solutionrelative:application\\dtos\\createbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F00C9D72-CE82-4EB8-A862-1D5E8D39F059}|Application\\Application.csproj|c:\\projetos .net\\librarysystem\\application\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F00C9D72-CE82-4EB8-A862-1D5E8D39F059}|Application\\Application.csproj|solutionrelative:application\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F00C9D72-CE82-4EB8-A862-1D5E8D39F059}|Application\\Application.csproj|c:\\projetos .net\\librarysystem\\application\\dtos\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F00C9D72-CE82-4EB8-A862-1D5E8D39F059}|Application\\Application.csproj|solutionrelative:application\\dtos\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F00C9D72-CE82-4EB8-A862-1D5E8D39F059}|Application\\Application.csproj|c:\\projetos .net\\librarysystem\\application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,14 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F00C9D72-CE82-4EB8-A862-1D5E8D39F059}|Application\\Application.csproj|c:\\projetos .net\\librarysystem\\application\\dtos\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F00C9D72-CE82-4EB8-A862-1D5E8D39F059}|Application\\Application.csproj|solutionrelative:application\\dtos\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F00C9D72-CE82-4EB8-A862-1D5E8D39F059}|Application\\Application.csproj|c:\\projetos .net\\librarysystem\\application\\dtos\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F00C9D72-CE82-4EB8-A862-1D5E8D39F059}|Application\\Application.csproj|solutionrelative:application\\dtos\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F00C9D72-CE82-4EB8-A862-1D5E8D39F059}|Application\\Application.csproj|c:\\projetos .net\\librarysystem\\application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F00C9D72-CE82-4EB8-A862-1D5E8D39F059}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,50 +90,180 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Projetos .NET\\LibrarySystem\\API\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Projetos .NET\\LibrarySystem\\API\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "API\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T02:28:16.293Z",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projetos .NET\\LibrarySystem\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "API\\appsettings.json",
+              "ToolTip": "C:\\Projetos .NET\\LibrarySystem\\API\\appsettings.json",
+              "RelativeToolTip": "API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-24T16:26:49.643Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Projetos .NET\\LibrarySystem\\API\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Projetos .NET\\LibrarySystem\\API\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "API\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:37:38.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AutomaMapperProfile.cs",
+              "DocumentMoniker": "C:\\Projetos .NET\\LibrarySystem\\Application\\Mappings\\AutomaMapperProfile.cs",
+              "RelativeDocumentMoniker": "Application\\Mappings\\AutomaMapperProfile.cs",
+              "ToolTip": "C:\\Projetos .NET\\LibrarySystem\\Application\\Mappings\\AutomaMapperProfile.cs",
+              "RelativeToolTip": "Application\\Mappings\\AutomaMapperProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:32:36.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Projetos .NET\\LibrarySystem\\Infrastructure\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Projetos .NET\\LibrarySystem\\Infrastructure\\Services\\AuthService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\AuthService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T12:54:00.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Projetos .NET\\LibrarySystem\\Infrastructure\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\BookService.cs",
+              "ToolTip": "C:\\Projetos .NET\\LibrarySystem\\Infrastructure\\Services\\BookService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\BookService.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAcwDkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T12:52:26.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Projetos .NET\\LibrarySystem\\Infrastructure\\Repositories\\BookRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\BookRepository.cs",
+              "ToolTip": "C:\\Projetos .NET\\LibrarySystem\\Infrastructure\\Repositories\\BookRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\BookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T12:36:10.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "C:\\Projetos .NET\\LibrarySystem\\Application\\Interfaces\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IBookRepository.cs",
+              "ToolTip": "C:\\Projetos .NET\\LibrarySystem\\Application\\Interfaces\\IBookRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IBookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T12:33:42.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Projetos .NET\\LibrarySystem\\Application\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Projetos .NET\\LibrarySystem\\Application\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T12:33:25.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateBookDTO.cs",
+              "DocumentMoniker": "C:\\Projetos .NET\\LibrarySystem\\Application\\DTOs\\CreateBookDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\CreateBookDTO.cs",
+              "ToolTip": "C:\\Projetos .NET\\LibrarySystem\\Application\\DTOs\\CreateBookDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\CreateBookDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T12:29:56.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BookDTO.cs",
+              "DocumentMoniker": "C:\\Projetos .NET\\LibrarySystem\\Application\\DTOs\\BookDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\BookDTO.cs",
+              "ToolTip": "C:\\Projetos .NET\\LibrarySystem\\Application\\DTOs\\BookDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\BookDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T12:28:06.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Projetos .NET\\LibrarySystem\\Domain\\Entities\\Book.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Book.cs",
+              "ToolTip": "C:\\Projetos .NET\\LibrarySystem\\Domain\\Entities\\Book.cs",
+              "RelativeToolTip": "Domain\\Entities\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T12:23:39.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "LibraryDbContext.cs",
               "DocumentMoniker": "C:\\Projetos .NET\\LibrarySystem\\Infrastructure\\Data\\LibraryDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\LibraryDbContext.cs",
               "ToolTip": "C:\\Projetos .NET\\LibrarySystem\\Infrastructure\\Data\\LibraryDbContext.cs",
               "RelativeToolTip": "Infrastructure\\Data\\LibraryDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T02:28:10.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Projetos .NET\\LibrarySystem\\Infrastructure\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UserRepository.cs",
               "ToolTip": "C:\\Projetos .NET\\LibrarySystem\\Infrastructure\\Repositories\\UserRepository.cs",
               "RelativeToolTip": "Infrastructure\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T02:28:09.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Projetos .NET\\LibrarySystem\\Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
@@ -110,33 +276,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Projetos .NET\\LibrarySystem\\API\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "API\\WeatherForecast.cs",
-              "ToolTip": "C:\\Projetos .NET\\LibrarySystem\\API\\WeatherForecast.cs",
-              "RelativeToolTip": "API\\WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T02:27:57.031Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Projetos .NET\\LibrarySystem\\API\\Program.cs",
               "RelativeDocumentMoniker": "API\\Program.cs",
               "ToolTip": "C:\\Projetos .NET\\LibrarySystem\\API\\Program.cs",
               "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T02:27:56.589Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "C:\\Projetos .NET\\LibrarySystem\\Application\\DTOs\\UserDTO.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\UserDTO.cs",
@@ -149,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "RegisterUserDTO.cs",
               "DocumentMoniker": "C:\\Projetos .NET\\LibrarySystem\\Application\\DTOs\\RegisterUserDTO.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\RegisterUserDTO.cs",
@@ -162,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "LoginUserDTO.cs",
               "DocumentMoniker": "C:\\Projetos .NET\\LibrarySystem\\Application\\DTOs\\LoginUserDTO.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\LoginUserDTO.cs",
@@ -175,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\Projetos .NET\\LibrarySystem\\Application\\Interfaces\\IAuthService.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IAuthService.cs",
@@ -188,13 +341,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Projetos .NET\\LibrarySystem\\API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Projetos .NET\\LibrarySystem\\API\\Controllers\\AuthController.cs",
               "RelativeToolTip": "API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T02:09:55.315Z",
               "EditorCaption": ""

@@ -1,41 +1,65 @@
 using Application.Interfaces;
 using Infrastructure.Repositories;
 using Infrastructure.Data;
-using Microsoft.EntityFrameworkCore;
-using Application.Interfaces;
 using Infrastructure.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using System.Text;
+using AutoMapper;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Adiciona o DbContext com banco em memória
 builder.Services.AddDbContext<LibraryDbContext>(options =>
     options.UseInMemoryDatabase("LibraryDB"));
 
-// Injeta a interface com a implementação do repositório
 builder.Services.AddScoped<IUserRepository, UserRepository>();
-
-// Adiciona serviços da API e Swagger
-builder.Services.AddControllers();
 builder.Services.AddScoped<IAuthService, AuthService>();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<IBookRepository, BookRepository>();
+builder.Services.AddScoped<BookService>();
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-var jwtKey = builder.Configuration["Jwt:Key"];
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Library API", Version = "v1" });
+
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        Name = "Authorization",
+        Type = SecuritySchemeType.ApiKey,
+        Scheme = "Bearer",
+        BearerFormat = "JWT",
+        In = ParameterLocation.Header,
+        Description = "Digite 'Bearer' seguido do token JWT. Ex: Bearer abc123"
+    });
+
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement {
+        {
+            new OpenApiSecurityScheme {
+                Reference = new OpenApiReference {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            Array.Empty<string>()
+        }
+    });
+});
+
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+
+var jwtKey = builder.Configuration["Jwt:Key"] ?? "chave-secreta-padrao-123456";
 var key = Encoding.ASCII.GetBytes(jwtKey);
 
 builder.Services.AddAuthentication(options =>
 {
-
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
     options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 
-})
-.AddJwtBearer(options =>
+}).AddJwtBearer(options =>
 {
-
     options.RequireHttpsMetadata = false;
     options.SaveToken = true;
     options.TokenValidationParameters = new TokenValidationParameters
@@ -49,7 +73,6 @@ builder.Services.AddAuthentication(options =>
 
 var app = builder.Build();
 
-// Configura Swagger na pipeline de desenvolvimento
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -57,10 +80,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthentication();
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();
